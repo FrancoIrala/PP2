@@ -1,0 +1,80 @@
+h1 {
+    padding-left: 25rem;
+}
+
+h2 {
+    padding-left: 25rem;
+}
+
+.texto {
+    text-align: start;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    font-size: 20px;
+}
+
+.logo1 {
+    text-align: center;
+    transform: scale(0.3);
+}
+
+body {
+    background-image: url(../fotos/mezexis.jpg);
+}
+
+.Fotos1 {
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.Fotos1 img {
+    max-width: 20%;
+    margin: 10px;
+}
+
+/* .Fotos1 {
+    overflow: hidden;
+    position: relative;
+} */
+
+#zoomImage {
+    width: 300px; /* Tamaño inicial de la imagen */
+    transition: transform 0.5s ease-in-out;
+}
+
+#zoom-container:hover #zoomImage {
+    transform: scale(1.2); /* Ajusta el factor de escala según tus preferencias */
+}
+
+.Redes {
+    background-color: #ffffff; 
+    padding: 25px;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    border: 5px solid #000000;
+}
+
+.Redes a {
+    text-decoration: none;
+    margin: 0 30px;
+    display: inline-block;
+    transition: backgroud-color 0.3s; 
+}
+
+.Redes img {
+    width: 40px; 
+    height: 40px;
+}
+
+.Redes:hover {
+    background-color: rgb(254, 255, 218);
+}
+
+footer {
+    text-align: center;
+}
